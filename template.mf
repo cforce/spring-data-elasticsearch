@@ -9,6 +9,7 @@ Export-Template:
 Import-Template:
  javax.enterprise.*;version="${cdi:[=.=.=,+1.0.0)}";resolution:=optional,
  org.apache.commons.lang.*;version="${commonslang:[=.=.=,+1.0.0)}",
+ org.apache.commons.lang3.*;version="${commonslang:[=.=.=,+3.3.2)}",
  com.fasterxml.jackson.*;version="${jackson:[=.=.=,+1.0.0)}";resolution:=optional,
  org.elasticsearch.*;version="${elasticsearch:[=.=.=,2.2.0)}",
  org.apache.lucene.*;version="5.4.1",
